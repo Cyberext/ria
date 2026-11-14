@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3b0820"/>
+      <stop offset="100%" stop-color="#15020b"/>
+    </radialGradient>
+    <linearGradient id="roseGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff6b95"/>
+      <stop offset="50%" stop-color="#e61c5d"/>
+      <stop offset="100%" stop-color="#940836"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#ff477e" flood-opacity="0.65"/>
+    </filter>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#bg)"/>
+  <path d="M32 52 C32 52 10 38 10 23 C10 14 17 9 24 9 C28.5 9 31.5 12 32 14 C32.5 12 35.5 9 40 9 C47 9 54 14 54 23 C54 38 32 52 32 52 Z" fill="url(#roseGrad)" filter="url(#glow)"/>
+  <circle cx="23" cy="18" r="3.5" fill="#ffffff" opacity="0.45"/>
+  <path d="M44 13 L45.5 17.5 L50 19 L45.5 20.5 L44 25 L42.5 20.5 L38 19 L42.5 17.5 Z" fill="#ffdf9e" opacity="0.95"/>
+</svg>
